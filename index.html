@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Web Demo</h1>
+        
+        <div class="counter" id="counter">0</div>
+        
+        <div class="buttons">
+            <button class="btn-primary" onclick="increment()">+</button>
+            <button class="btn-secondary" onclick="decrement()">-</button>
+            <button class="btn-reset" onclick="reset()">Reset</button>
+        </div>
+        
+        <div class="color-box" id="colorBox" onclick="changeColor()"></div>
+        
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
